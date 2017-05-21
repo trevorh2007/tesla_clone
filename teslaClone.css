@@ -1,0 +1,122 @@
+@import url(https://fonts.googleapis.com/css?family=Gotham);
+
+
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background: url(images/tesla_still.png) no-repeat;
+    background-size: cover; 
+}
+
+body {
+    font-family: 'Gotham', sans-serif;
+}
+
+p {
+    font-weight: 10;
+    margin: 15px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a {
+    color: white;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 5px;
+    padding: 0px 8px 0px 8px;
+}
+
+#left-header {
+    float: left;
+    font-size: 12px;
+    margin-left: 200px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+#left-header img {
+    width: 5%;
+    display: inline-block;
+}
+
+#right-header {
+    float: right;
+    font-size: 11px;
+    margin-right: 135px;
+    margin-top: 10px;
+}
+
+.main-masthead {
+    position: absolute;
+    top: 80px;
+    left: 400px;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer-nav {
+    font-size: 13px;
+
+}
+
+footer {
+    position: absolute;
+    left: 150px;
+    bottom: 0px;
+    text-align: center;
+}
+
+footer li {
+    display: inline-block;
+    padding: 0px 20px 0px 20px;
+    border-right: groove 1px white;
+}
+
+.link-masthead li {
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 12px 30px 12px 30px;
+}
+
+.link-masthead {
+    position: absolute;
+    margin: auto;
+    top: 280px;
+    left: 450px;
+    width: 50%;
+}
+
+#newsletter > p {
+    position: absolute;
+    top: 350px;
+    left: 678px;
+    font-size: 12px;
+}
+
+#flag img {
+    display: inline;
+    width: 80%;
+    margin: 0px -80px 0px -80px;
+
+}
+
+
+
+
+
